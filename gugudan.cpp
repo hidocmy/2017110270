@@ -3,7 +3,7 @@ using namespace std;
 
 int main() {
     for (int i = 1; i <= 9; i++) {
-        for (int j = 2; j <= 8; j++)  //8À» 9·Î ¼öÁ¤
+        for (int j = 2; j <= 9; j++)  //8Ã€Â» 9Â·ÃŽ Â¼Ã¶ÃÂ¤
             cout << j << " x " << i << " = " << j * i << "\t";
         cout << endl;
     }
